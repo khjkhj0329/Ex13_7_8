@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                     progress.incrementProgressBy(10);
                     break;
                 case R.id.btn_dec:
-                    progress.incrementProgressBy(10);
+                    progress.incrementProgressBy(-10);
                     break;
             }
         }
